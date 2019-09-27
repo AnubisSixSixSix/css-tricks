@@ -1,0 +1,48 @@
+body{
+    margin: auto;
+}
+
+.all{
+    display: flex;
+}
+
+h1,p{
+    margin: 0;
+}
+
+.red{
+    background-color: red;
+    width: 50%;
+    position: sticky;
+}
+
+.red:hover{
+    background-color: yellow;
+}
+
+.red h1{
+    font: 22px bold italic ;
+}
+
+.blue{
+    background-color: rgb(0, 255, 64);
+    width: 50%;
+}
+
+.blue h1,p{
+    color: blue;
+}
+
+.blue p:hover{
+    border-bottom: 1px black solid;
+}
+
+button{
+    border: 1px solid violet;
+    background-color: pink;
+}
+
+button:active{
+    border: 1px solid black;
+    color: green;
+}
